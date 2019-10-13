@@ -1,0 +1,87 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+section {
+	height:100vh;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: right bottom;
+}
+header, .container{
+	width: 90%;
+	position: relative;
+}
+
+header .logo{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+header .nav{
+	width: 80%;
+	float: right;
+	margin: 22px 0;
+}
+header .logo img{
+	width: 40%;
+	height: auto;
+}
+header .nav ul{
+	text-align: right;
+}
+header .nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+header .nav ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #000;
+	padding: 12px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	border-radius: 16px;
+	display: block;
+	font-weight: bold;
+	transition: background-color .5s;
+}
+header .nav ul li a:hover{
+	color: #fff;
+	background-color: #00A1D6;
+}
+.content{
+	width: 45%;
+	margin: 0;
+	position: absolute;
+	margin-top: 18%;
+
+}
+.content h1{
+	font-size: 50px;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+}
+.content p{
+	margin: 20px 0;
+	line-height: 1.5em;
+	color: #A8A8A8;
+	font-size: 20px;
+}
+.content .btn{
+	margin-top: 20px;
+	background-color: #2764FF;
+	padding: 10px 20px;
+	border: 1px solid #2764FF;
+	border-radius: 20px;
+	transition: background-color .5s;
+}
+.content .btn a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+.content .btn:hover{
+	background-color:  #00A1D6;
+}
